@@ -1,0 +1,5 @@
+Sep 21 14:00:01 host13 sshd[2345]: Failed password for invalid user admin from 192.0.2.45 port 55922 ssh2
+Sep 21 14:00:05 host13 sshd[2345]: Failed password for invalid user admin from 192.0.2.45 port 55923 ssh2
+Sep 21 14:00:10 host13 sshd[2345]: Accepted password for user1 from 198.51.100.23 port 60221 ssh2
+Sep 21 14:05:12 host13 kernel: [UFW BLOCK] IN=eth0 OUT= MAC=... SRC=203.0.113.17 DST=10.0.0.13 LEN=60 ...
+Sep 21 14:10:30 host13 app[455]: ERROR: file encryption detected: /srv/data/invoice1.locked

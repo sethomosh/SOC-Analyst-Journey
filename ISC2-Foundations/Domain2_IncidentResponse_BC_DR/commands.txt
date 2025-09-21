@@ -1,0 +1,8 @@
+# commands run while building domain2
+pwd
+cat IR_playbook.md
+cat IR_tabletop.md
+cat BCDR_plan.md
+cat incident_report_TEMPLATE.md
+ls -la logs
+grep "Failed password" logs/sample_syslog.log
