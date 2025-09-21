@@ -1,0 +1,26 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Personal Notes (if you want to keep some things private)
+personal-notes/
+draft/
+
+# Sensitive Information
+*.key
+*.pem
+passwords.txt
+secrets/
+
+# Large Files
+*.iso
+*.vm
+*.ova

@@ -1,0 +1,6 @@
+domain1 lab notes:
+- created enterprise_security_policy.md
+- created risk_register.md and risk_register.csv
+- created compliance mapping
+- next: capture screenshots of policy doc, create pdf, and add to artifacts/
+- next: schedule tabletop exercise and write IR_playbook for domain2
