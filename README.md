@@ -200,3 +200,10 @@ _This portfolio represents my commitment to continuous learning and professional
 ---
 
 **📊 Repository Stats**: ![GitHub last commit](https://img.shields.io/github/last-commit/sethomosh/SOC-Analyst-Journey) ![GitHub repo size](https://img.shields.io/github/repo-size/sethomosh/SOC-Analyst-Journey)
+
+## Domain 2 — Incident Response & BC/DR
+- IR playbook: ISC2-Foundations/Domain2_IncidentResponse_BC_DR/IR_playbook.md
+- tabletop exercise: ISC2-Foundations/Domain2_IncidentResponse_BC_DR/IR_tabletop.md
+- BC/DR plan: ISC2-Foundations/Domain2_IncidentResponse_BC_DR/BCDR_plan.md
+- incident report template: ISC2-Foundations/Domain2_IncidentResponse_BC_DR/incident_report_TEMPLATE.md
+- sample logs & artifacts: ISC2-Foundations/Domain2_IncidentResponse_BC_DR/logs/ and artifacts/
