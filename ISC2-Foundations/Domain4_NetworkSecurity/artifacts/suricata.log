@@ -1,0 +1,76 @@
+[1 - Suricata-Main] 2025-09-21 12:26:15 Notice: suricata: This is Suricata version 8.0.1 RELEASE running in SYSTEM mode
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: cpu: CPUs/cores online: 4
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: suricata: Setting engine mode to IDS mode by default
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: exception-policy: master exception-policy set to: auto
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: conf: Running in live mode, activating unix socket
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: logopenfile: fast output device (regular) initialized: fast.log
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: logopenfile: stats output device (regular) initialized: stats.log
+[1 - Suricata-Main] 2025-09-21 12:26:15 Warning: detect: No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+[1 - Suricata-Main] 2025-09-21 12:26:15 Warning: detect: 1 rule files specified, but no rules were loaded!
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: detect: 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+[1 - Suricata-Main] 2025-09-21 12:26:15 Notice: mpm-hs: Rule group caching - loaded: 0 newly cached: 0 total cacheable: 0
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[1 - Suricata-Main] 2025-09-21 12:26:15 Error: af-packet: any: failed to find interface type: No such device
+[1 - Suricata-Main] 2025-09-21 12:26:15 Info: runmodes: any: creating 4 threads
+[17 - W#01-any] 2025-09-21 12:26:15 Error: af-packet: any: failed to find interface: No such device
+[17 - W#01-any] 2025-09-21 12:26:15 Error: af-packet: any: failed to init socket for interface
+[1 - Suricata-Main] 2025-09-21 12:26:15 Error: threads: thread "W#01-any" failed to start: flags 0422
+21/9/2025 -- 15:54:48 - <Notice> - This is Suricata version 6.0.4 RELEASE running in USER mode
+21/9/2025 -- 15:54:48 - <Info> - CPUs/cores online: 4
+21/9/2025 -- 15:54:48 - <Info> - fast output device (regular) initialized: fast.log
+21/9/2025 -- 15:54:48 - <Info> - eve-log output device (regular) initialized: eve.json
+21/9/2025 -- 15:54:48 - <Info> - stats output device (regular) initialized: stats.log
+21/9/2025 -- 15:54:48 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+21/9/2025 -- 15:54:48 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/9/2025 -- 15:54:48 - <Info> - Threshold config parsed: 0 rule(s) found
+21/9/2025 -- 15:54:48 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/9/2025 -- 15:54:48 - <Info> - Using unix socket file '/var/run/suricata-command.socket'
+21/9/2025 -- 15:54:48 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+21/9/2025 -- 15:54:48 - <Info> - Starting file run for artifacts/network_capture.pcap
+21/9/2025 -- 15:54:48 - <Info> - pcap file artifacts/network_capture.pcap end of file reached (pcap err code 0)
+21/9/2025 -- 15:54:48 - <Notice> - Signal Received.  Stopping engine.
+21/9/2025 -- 15:54:48 - <Info> - time elapsed 0.141s
+21/9/2025 -- 15:54:48 - <Warning> - [ERRCODE: SC_ERR_INVALID_CHECKSUM(11)] - 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+21/9/2025 -- 15:54:48 - <Notice> - Pcap-file module read 1 files, 12 packets, 1771 bytes
+21/9/2025 -- 15:54:48 - <Info> - Alerts: 0
+21/9/2025 -- 15:54:49 - <Info> - cleaning up signature grouping structure... complete
+21/9/2025 -- 15:56:16 - <Notice> - This is Suricata version 6.0.4 RELEASE running in USER mode
+21/9/2025 -- 15:56:16 - <Info> - CPUs/cores online: 4
+21/9/2025 -- 15:56:16 - <Info> - fast output device (regular) initialized: fast.log
+21/9/2025 -- 15:56:16 - <Info> - eve-log output device (regular) initialized: eve.json
+21/9/2025 -- 15:56:16 - <Info> - stats output device (regular) initialized: stats.log
+21/9/2025 -- 15:56:16 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+21/9/2025 -- 15:56:16 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/9/2025 -- 15:56:16 - <Info> - Threshold config parsed: 0 rule(s) found
+21/9/2025 -- 15:56:16 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/9/2025 -- 15:56:16 - <Info> - Using unix socket file '/var/run/suricata-command.socket'
+21/9/2025 -- 15:56:16 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+21/9/2025 -- 15:56:16 - <Info> - Starting file run for artifacts/network_capture.pcap
+21/9/2025 -- 15:56:16 - <Info> - pcap file artifacts/network_capture.pcap end of file reached (pcap err code 0)
+21/9/2025 -- 15:56:16 - <Notice> - Signal Received.  Stopping engine.
+21/9/2025 -- 15:56:16 - <Info> - time elapsed 0.090s
+21/9/2025 -- 15:56:16 - <Warning> - [ERRCODE: SC_ERR_INVALID_CHECKSUM(11)] - 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+21/9/2025 -- 15:56:16 - <Notice> - Pcap-file module read 1 files, 12 packets, 1771 bytes
+21/9/2025 -- 15:56:16 - <Info> - Alerts: 0
+21/9/2025 -- 15:56:16 - <Info> - cleaning up signature grouping structure... complete
+21/9/2025 -- 15:59:09 - <Notice> - This is Suricata version 6.0.4 RELEASE running in USER mode
+21/9/2025 -- 15:59:09 - <Info> - CPUs/cores online: 4
+21/9/2025 -- 15:59:09 - <Info> - fast output device (regular) initialized: fast.log
+21/9/2025 -- 15:59:09 - <Info> - eve-log output device (regular) initialized: eve.json
+21/9/2025 -- 15:59:09 - <Info> - stats output device (regular) initialized: stats.log
+21/9/2025 -- 15:59:09 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /etc/suricata/rules/suricata.rules
+21/9/2025 -- 15:59:09 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/9/2025 -- 15:59:09 - <Info> - Threshold config parsed: 0 rule(s) found
+21/9/2025 -- 15:59:09 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/9/2025 -- 15:59:09 - <Info> - Using unix socket file '/var/run/suricata-command.socket'
+21/9/2025 -- 15:59:09 - <Notice> - all 5 packet processing threads, 4 management threads initialized, engine started.
+21/9/2025 -- 15:59:09 - <Info> - Starting file run for artifacts/network_capture.pcap
+21/9/2025 -- 15:59:09 - <Info> - pcap file artifacts/network_capture.pcap end of file reached (pcap err code 0)
+21/9/2025 -- 15:59:09 - <Notice> - Signal Received.  Stopping engine.
+21/9/2025 -- 15:59:09 - <Info> - time elapsed 0.090s
+21/9/2025 -- 15:59:09 - <Warning> - [ERRCODE: SC_ERR_INVALID_CHECKSUM(11)] - 1/1th of packets have an invalid checksum, consider setting pcap-file.checksum-checks variable to no or use '-k none' option on command line.
+21/9/2025 -- 15:59:09 - <Notice> - Pcap-file module read 1 files, 24 packets, 3542 bytes
+21/9/2025 -- 15:59:09 - <Info> - Alerts: 0
+21/9/2025 -- 15:59:09 - <Info> - cleaning up signature grouping structure... complete

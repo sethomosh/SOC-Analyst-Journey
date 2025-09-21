@@ -1,0 +1,7 @@
+# Commands executed (chronological)
+pwd
+sudo timeout 60 tcpdump -i any -w artifacts/network_capture.pcap
+tshark -r artifacts/network_capture.pcap -q -z conv,ip
+# docker suricata run (if used)
+# nmap -sS -p 1-1024 127.0.0.1
+sudo wg show

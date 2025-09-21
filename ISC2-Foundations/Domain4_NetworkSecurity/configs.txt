@@ -1,0 +1,17 @@
+# Commands / snippets used in Network Security Lab
+
+# capture 60s of traffic
+sudo timeout 60 tcpdump -i any -w artifacts/network_capture.pcap
+
+# analyze top talkers
+tshark -r artifacts/network_capture.pcap -q -z conv,ip
+
+# run Suricata in docker (example)
+docker run --rm --net host -v $(pwd)/artifacts:/var/log/suricata jasonish/suricata:latest -c /etc/suricata/suricata.yaml -i any
+
+# run nmap scan
+nmap -sS -p 1-1024 127.0.0.1
+
+# WireGuard status
+sudo wg show
+

@@ -1,0 +1,72 @@
+------------------------------------------------------------------------------------
+Date: 9/21/2025 -- 15:54:48 (uptime: 0d, 00h 00m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+decoder.pkts                                  | Total                     | 12
+decoder.bytes                                 | Total                     | 1771
+decoder.ipv4                                  | Total                     | 12
+decoder.ethernet                              | Total                     | 12
+decoder.tcp                                   | Total                     | 12
+decoder.avg_pkt_size                          | Total                     | 147
+decoder.max_pkt_size                          | Total                     | 795
+flow.tcp                                      | Total                     | 1
+flow.wrk.spare_sync_avg                       | Total                     | 100
+flow.wrk.spare_sync                           | Total                     | 1
+tcp.invalid_checksum                          | Total                     | 12
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 9900
+flow.mgr.rows_maxlen                          | Total                     | 1
+flow.mgr.flows_checked                        | Total                     | 1
+flow.mgr.flows_notimeout                      | Total                     | 1
+tcp.memuse                                    | Total                     | 2424832
+tcp.reassembly_memuse                         | Total                     | 393216
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 9/21/2025 -- 15:56:16 (uptime: 0d, 00h 00m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+decoder.pkts                                  | Total                     | 12
+decoder.bytes                                 | Total                     | 1771
+decoder.ipv4                                  | Total                     | 12
+decoder.ethernet                              | Total                     | 12
+decoder.tcp                                   | Total                     | 12
+decoder.avg_pkt_size                          | Total                     | 147
+decoder.max_pkt_size                          | Total                     | 795
+flow.tcp                                      | Total                     | 1
+flow.wrk.spare_sync_avg                       | Total                     | 100
+flow.wrk.spare_sync                           | Total                     | 1
+tcp.invalid_checksum                          | Total                     | 12
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 9900
+flow.mgr.rows_maxlen                          | Total                     | 1
+flow.mgr.flows_checked                        | Total                     | 1
+flow.mgr.flows_notimeout                      | Total                     | 1
+tcp.memuse                                    | Total                     | 2424832
+tcp.reassembly_memuse                         | Total                     | 393216
+flow.memuse                                   | Total                     | 7394304
+------------------------------------------------------------------------------------
+Date: 9/21/2025 -- 15:59:09 (uptime: 0d, 00h 00m 00s)
+------------------------------------------------------------------------------------
+Counter                                       | TM Name                   | Value
+------------------------------------------------------------------------------------
+decoder.pkts                                  | Total                     | 24
+decoder.bytes                                 | Total                     | 3542
+decoder.ipv4                                  | Total                     | 24
+decoder.ethernet                              | Total                     | 24
+decoder.tcp                                   | Total                     | 24
+decoder.avg_pkt_size                          | Total                     | 147
+decoder.max_pkt_size                          | Total                     | 795
+flow.tcp                                      | Total                     | 2
+flow.wrk.spare_sync_avg                       | Total                     | 100
+flow.wrk.spare_sync                           | Total                     | 1
+tcp.invalid_checksum                          | Total                     | 24
+flow.mgr.full_hash_pass                       | Total                     | 1
+flow.spare                                    | Total                     | 9900
+flow.mgr.rows_maxlen                          | Total                     | 1
+flow.mgr.flows_checked                        | Total                     | 1
+flow.mgr.flows_notimeout                      | Total                     | 1
+tcp.memuse                                    | Total                     | 2424832
+tcp.reassembly_memuse                         | Total                     | 393216
+flow.memuse                                   | Total                     | 7394304
