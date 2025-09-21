@@ -1,0 +1,5 @@
+total 12
+drwxrwx---  2 root  analysts 4096 Sep 21 14:54 .
+drwxr-xr-x  3 root  root     4096 Sep 21 14:47 ..
+-rw-r-----+ 1 alice analysts   32 Sep 21 14:54 report.txt
+/srv/project_data/report.txt alice analysts 640

@@ -1,0 +1,24 @@
+# linux commands used (copy-paste)
+sudo groupadd analysts
+sudo groupadd auditors
+sudo useradd -m -G analysts alice
+sudo useradd -m -G auditors bob
+sudo mkdir -p /srv/project_data
+sudo chown root:analysts /srv/project_data
+sudo chmod 770 /srv/project_data
+sudo -u alice bash -c 'echo "sensitive data" > /srv/project_data/report.txt'
+sudo -u bob cat /srv/project_data/report.txt   # expected: permission denied (before setfacl)
+sudo setfacl -m u:bob:r /srv/project_data/report.txt
+sudo -u bob cat /srv/project_data/report.txt   # expected: now readable
+getfacl /srv/project_data/report.txt
+
+# optional AD/Azure commands (examples)
+# powershell (on domain controller)
+# New-ADGroup -Name "FinanceReaders" -GroupScope Global -PassThru
+# New-ADUser -Name "charlie" -AccountPassword (ConvertTo-SecureString "P@ssw0rd!" -AsPlainText -Force) -Enabled $true
+# Add-ADGroupMember -Identity "FinanceReaders" -Members "charlie"
+
+# azure cli
+# az login
+# az ad group create --display-name FinanceReaders --mail-nickname financereaders
+

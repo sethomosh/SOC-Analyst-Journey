@@ -1,0 +1,17 @@
+total 84
+drwxrwxrwx 1 mosh mosh   512 Sep 21 15:09 .
+drwxrwxrwx 1 mosh mosh   512 Sep 21 14:37 ..
+-rwxrwxrwx 1 mosh mosh 13696 Sep 21 14:50 2025-09-21_16-00_linux_permissions_before.png
+-rwxrwxrwx 1 mosh mosh    32 Sep 21 14:59 2025-09-21_16-00_linux_permissions_before.txt
+-rwxrwxrwx 1 mosh mosh 14744 Sep 21 15:00 2025-09-21_16-05_linux_permissions_after.png
+-rwxrwxrwx 1 mosh mosh    32 Sep 21 15:00 2025-09-21_16-05_linux_permissions_after.txt
+-rwxrwxrwx 1 mosh mosh     0 Sep 21 14:55 2025-09-21_16-05_linux_permissions_before.txt
+-rwxrwxrwx 1 mosh mosh   125 Sep 21 15:02 2025-09-21_16-07_getfacl.txt
+-rwxrwxrwx 1 mosh mosh 20280 Sep 21 15:03 2025-09-21_16-07_getfacl_bob_acl.png.png
+-rwxrwxrwx 1 mosh mosh 17842 Sep 21 15:07 2025-09-21_16-08_ls_la.png
+-rwxrwxrwx 1 mosh mosh   214 Sep 21 15:08 2025-09-21_16-08_ls_la.txt
+-rwxrwxrwx 1 mosh mosh  8822 Sep 21 15:09 2025-09-21_16-09_group_analysts.png
+-rwxrwxrwx 1 mosh mosh    26 Sep 21 15:08 2025-09-21_16-09_group_analysts.txt
+-rwxrwxrwx 1 mosh mosh     0 Sep 21 15:09 2025-09-21_16-10_artifacts_folder_listing.txt
+-rwxrwxrwx 1 mosh mosh     0 Sep 21 14:55 2025-09-21_16-10_linux_permissions_after.txt
+-rwxrwxrwx 1 mosh mosh     0 Sep 21 14:55 2025-09-21_16-12_getfacl.txt

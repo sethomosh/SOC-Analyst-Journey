@@ -1,0 +1,9 @@
+# file: srv/project_data/report.txt
+# owner: alice
+# group: analysts
+user::rw-
+user:bob:r--
+group::r--
+mask::r--
+other::---
+
