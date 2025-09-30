@@ -1,0 +1,79 @@
+starting steghide batch test at Mon Sep 22 15:55:10 EAT 2025
+----
+testing file: 209583__zott820__oven-mitt-impact.wav
+ trying password: christmastree
+steghide: could not extract any data with that passphrase!
+ no hidden data with password christmastree
+ trying password: darksky123
+steghide: could not extract any data with that passphrase!
+ no hidden data with password darksky123
+ trying password: goldenwatch
+steghide: could not extract any data with that passphrase!
+ no hidden data with password goldenwatch
+----
+testing file: 330299__maycuddlepie__siren.mp3
+ trying password: christmastree
+steghide: the file format of the file "330299__maycuddlepie__siren.mp3" is not supported.
+ no hidden data with password christmastree
+ trying password: darksky123
+steghide: the file format of the file "330299__maycuddlepie__siren.mp3" is not supported.
+ no hidden data with password darksky123
+ trying password: goldenwatch
+steghide: the file format of the file "330299__maycuddlepie__siren.mp3" is not supported.
+ no hidden data with password goldenwatch
+----
+testing file: car.jpeg
+ trying password: christmastree
+steghide: could not extract any data with that passphrase!
+ no hidden data with password christmastree
+ trying password: darksky123
+steghide: could not extract any data with that passphrase!
+ no hidden data with password darksky123
+ trying password: goldenwatch
+wrote extracted data to "/tmp/tmp.sfduJ0nk5p/extracted".
+ extracted -> ../artifacts/2025-09-22_15-55-car.jpeg_-pw_goldenwatch-extracted
+----
+testing file: cityscape.jpg
+ trying password: christmastree
+steghide: could not extract any data with that passphrase!
+ no hidden data with password christmastree
+ trying password: darksky123
+steghide: could not extract any data with that passphrase!
+ no hidden data with password darksky123
+ trying password: goldenwatch
+steghide: could not extract any data with that passphrase!
+ no hidden data with password goldenwatch
+----
+testing file: pizza.jpg
+ trying password: christmastree
+wrote extracted data to "/tmp/tmp.58OdWxiJi9/extracted".
+ extracted -> ../artifacts/2025-09-22_15-55-pizza.jpg_-pw_christmastree-extracted
+ trying password: darksky123
+steghide: could not extract any data with that passphrase!
+ no hidden data with password darksky123
+ trying password: goldenwatch
+steghide: could not extract any data with that passphrase!
+ no hidden data with password goldenwatch
+----
+testing file: streetimage.jpg
+ trying password: christmastree
+steghide: could not extract any data with that passphrase!
+ no hidden data with password christmastree
+ trying password: darksky123
+steghide: could not extract any data with that passphrase!
+ no hidden data with password darksky123
+ trying password: goldenwatch
+steghide: could not extract any data with that passphrase!
+ no hidden data with password goldenwatch
+----
+testing file: verypretty.jpg
+ trying password: christmastree
+steghide: could not extract any data with that passphrase!
+ no hidden data with password christmastree
+ trying password: darksky123
+wrote extracted data to "/tmp/tmp.V5B27CAQLT/extracted".
+ extracted -> ../artifacts/2025-09-22_15-55-verypretty.jpg_-pw_darksky123-extracted
+ trying password: goldenwatch
+steghide: could not extract any data with that passphrase!
+ no hidden data with password goldenwatch
+batch finished at Mon Sep 22 15:55:13 EAT 2025

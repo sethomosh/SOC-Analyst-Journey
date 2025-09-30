@@ -1,0 +1,2 @@
+/usr/share/wordlists/rockyou.txt: No such file or directory
+found file 'FLAG2.txt', (size cp/uc     22/    10, flags 9, chk 645b)

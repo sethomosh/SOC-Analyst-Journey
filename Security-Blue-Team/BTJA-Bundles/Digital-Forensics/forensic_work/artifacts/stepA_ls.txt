@@ -1,0 +1,5 @@
+total 288
+drwxrwxrwx 1 mosh mosh    512 Sep 23 07:33 .
+drwxrwxrwx 1 mosh mosh    512 Sep 23 07:33 ..
+-rwxrwxrwx 1 mosh mosh 288832 Oct 22  2019 Form1.jpg
+-rwxrwxrwx 1 mosh mosh   1221 Sep 23 07:32 Website Update Report 01_10_2019.eml
